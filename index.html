@@ -1,4 +1,5 @@
 <title>Curso de Láminas de Fase</title>
+<meta name="author" content="Dra. Citlalli Almaguer Gómez; Dr. Víctor Manuel Chávez Pérez">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Spectral:ital,wght@0,500;0,600;0,700;1,500&display=swap">
@@ -180,6 +181,10 @@ figure.art figcaption{color:#4A5563}
 
 /* ---------- portada / índice ---------- */
 .hero{padding-block:8px 6px}
+.byline{font-size:.98rem;color:var(--ink-2);margin:.6rem 0 0;padding-left:12px;border-left:3px solid var(--sodium)}
+.byline strong{color:var(--ink)}
+.site-foot{max-width:780px;margin:56px auto 0;padding-top:16px;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted);display:grid;gap:4px}
+.site-foot b{color:var(--ink-2);font-weight:700}
 .hero h1{font-size:clamp(2.1rem,5vw,3.2rem);font-weight:700;letter-spacing:-.01em}
 .hero .sub{font-size:1.15rem;color:var(--ink-2);max-width:62ch}
 .wf{display:block;width:100%;max-width:780px;height:auto;margin:18px 0 6px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
@@ -228,6 +233,7 @@ figure.art figcaption{color:#4A5563}
   <div class="hero">
     <p class="eyebrow">Proyecto Láminas de Fase Cúbica · Guía de estudio</p>
     <h1>De la onda de luz al observador ideal</h1>
+    <p class="byline">Por la <strong>Dra. Citlalli Almaguer Gómez</strong> y el <strong>Dr. Víctor Manuel Chávez Pérez</strong> · desarrollada con Claude Opus 5.5 (Anthropic)</p>
     <p class="sub">Hacia los 45 años casi todos dejamos de ver bien de cerca: es la vista cansada, o <strong>presbicia</strong>. Una idea para ayudar es poner en el ojo una lámina transparente, casi plana, con un relieve de unas micras que «estira» el enfoque, para ver aceptablemente de lejos y de cerca a la vez. A ese tipo de pieza se le llama <strong>lámina de fase</strong>. Este curso explica, desde cero, toda la física necesaria para entender cómo funciona y cómo se evalúa en el ordenador: la luz como onda, las lentes y el ojo, la imagen que se forma en la retina y cómo se mide si alguien distingue una letra.</p>
     <p class="sub">Con esa base, la Parte II recorre los dos artículos del proyecto, <em>Evaluación numérica de elementos de fase para la presbicia</em>: el 1A compara diez láminas publicadas y muestra qué reglas de la comparación cambian el resultado; el 1B ajusta cada lámina a su mejor punto y compara con medidas reales.</p>
     <p class="sub"><b>Para quién</b>: estudiantes desde el primer semestre de Ingeniería Fotónica o carreras afines, y profesionales de otras áreas de la física que llegan nuevos a la óptica visual. Basta con álgebra, trigonometría y un poco de cálculo; todo lo demás se explica, y cada sigla se desarrolla la primera vez que aparece en cada tema (y está en el <a href="#z02">glosario</a>).</p>
@@ -4312,6 +4318,13 @@ figure.art figcaption{color:#4A5563}
     <dt>ℱ</dt><dd>transformada de Fourier. <a href="#t11-idea">C3</a></dd>
   </dl>
 </section>
+
+  <footer class="site-foot">
+    <span><b>Curso de Láminas de Fase</b> · Proyecto Láminas de Fase Cúbica</span>
+    <span>Autores: Dra. Citlalli Almaguer Gómez (Departamento de Ingeniería Electro-Fotónica, CUCEI, Universidad de Guadalajara) y Dr. Víctor Manuel Chávez Pérez (Departamento de Ciencias Básicas, CU Tlaquepaque, Universidad de Guadalajara; Tecnológico de Monterrey).</span>
+    <span>Material de divulgación del proyecto <b>CBF-2025-I-4104</b> «Diseño y validación de elementos ópticos para el incremento de la agudeza visual mediante codificación de frente de onda», financiado por la SECIHTI en la convocatoria Ciencia Básica y de Frontera 2025. Responsable técnica: Dra. Citlalli Almaguer Gómez.</span>
+    <span>Desarrollada con Claude Opus 5.5 (Anthropic) · 2026</span>
+  </footer>
 
   </main>
 </div>
